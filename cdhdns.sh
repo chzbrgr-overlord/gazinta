@@ -10,3 +10,4 @@ for i in $(cat cdhhost.prd.txt) ;do
 	host $IP 10.6.6.34 | tail -n 1 | awk '{print $5}'
 done
 max was here
+maybe not
