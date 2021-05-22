@@ -9,3 +9,4 @@ for i in $(cat cdhhost.prd.txt) ;do
 	echo -n "$IP  "
 	host $IP 10.6.6.34 | tail -n 1 | awk '{print $5}'
 done
+max was here
